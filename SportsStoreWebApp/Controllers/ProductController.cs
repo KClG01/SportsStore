@@ -7,6 +7,7 @@ using SportsStoreWebApp.Models;
 using SportsStoreWebApp.Configurations;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace SportsStoreWebApp.Controllers
@@ -24,7 +25,7 @@ namespace SportsStoreWebApp.Controllers
             _logger = logger;
         }
         [Route("danh-sach")]
-        public IActionResult List(string? category = null, int productPage = 1)
+        public async Task<ViewResult> List(string? category = null, int productPage = 1)
         {
             _logger.LogInformation("=== BẮT ĐẦU ACTION LIST ===");
 
@@ -41,7 +42,7 @@ namespace SportsStoreWebApp.Controllers
             var productsQuery = _repository.Products
                 .Where(p => category == null || p.Category == category);
 
-            var totalFiltered = productsQuery.Count();
+            var totalFiltered = await productsQuery.CountAsync();
             _logger.LogInformation("Số sản phẩm sau khi lọc category '{Category}': {FilteredCount}",
                 category ?? "Tất cả", totalFiltered);
 
@@ -49,11 +50,11 @@ namespace SportsStoreWebApp.Controllers
             var skip = (productPage - 1) * itemsPerPage;
             _logger.LogInformation("Phân trang: Skip={Skip}, Take={Take}", skip, itemsPerPage);
 
-            var products = productsQuery
+            var products = await productsQuery
                 .OrderBy(p => p.ProductID)
                 .Skip(skip)
                 .Take(itemsPerPage)
-                .ToList();
+                .ToListAsync();
 
             _logger.LogInformation("Số sản phẩm sẽ hiển thị: {DisplayCount}", products.Count);
 
@@ -103,9 +104,9 @@ namespace SportsStoreWebApp.Controllers
         }
 
         [Route("chinh-sua/{id:int}")]
-        public IActionResult Edit(int productId = 0)
+        public async Task<IActionResult> Edit(int productId = 0)
         {
-            Product? product = productId == 0 ? new Product() : _repository.Products.FirstOrDefault(p => p.ProductID == productId);
+            Product? product = productId == 0 ? new Product() : await _repository.Products.FirstOrDefaultAsync(p => p.ProductID == productId);
             if (product == null && productId != 0)
             {
                 _logger.LogWarning("Không tìm thấy sản phẩm có ID {ProductID} để chỉnh sửa.", productId);
@@ -116,11 +117,12 @@ namespace SportsStoreWebApp.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("edit")]
-        public IActionResult Edit(Product product)
+        public async Task<IActionResult> Edit(Product product)
         {
             if (ModelState.IsValid)
             {
                 _logger.LogInformation("Dữ liệu sản phẩm cho '{ProductName}' hợp lệ.Sẵn sàng để lưu.", product.Name);TempData["message"] = $"{product.Name} đã được lưu thành công!";
+                TempData["message"] = $"{product.Name} đã được lưu thành công.";
                 return RedirectToAction("List");
             }
             else

@@ -1,6 +1,9 @@
 ﻿
 using SportsStore.Domain.Abstract;
 using SportsStoreWebApp.Configurations;
+using Microsoft.EntityFrameworkCore;
+using SportsStore.Infrastructure.Data;
+using SportsStore.Infrastructure.Repositories;
 
 namespace SportsStoreWebApp
 {
@@ -14,11 +17,11 @@ namespace SportsStoreWebApp
             builder.Logging.AddDebug();
 
             // Add services to the container.
-            
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlServer(builder.Configuration.GetConnectionString("SportsStoreConnection")));
 
             builder.Services.Configure<PagingSettings>(builder.Configuration.GetSection("PagingSettings"));
 
-            builder.Services.AddScoped<IProductRepository, FakeProductRepository>();
+            builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 
             builder.Services.AddControllersWithViews();
 

@@ -9,3 +9,4 @@ C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\
 C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
 C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
 C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.sourcelink.json
