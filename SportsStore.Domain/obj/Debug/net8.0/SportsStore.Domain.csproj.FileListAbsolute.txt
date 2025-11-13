@@ -1,0 +1,11 @@
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.deps.json
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.dll
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\bin\Debug\net8.0\SportsStore.Domain.pdb
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.dll
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\refint\SportsStore.Domain.dll
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\SportsStore.Domain.pdb
+C:\Users\ADMIN\source\repos\ASPNETcore\SportsStoreWebApp\SportsStore.Domain\obj\Debug\net8.0\ref\SportsStore.Domain.dll
