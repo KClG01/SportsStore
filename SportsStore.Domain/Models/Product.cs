@@ -41,5 +41,7 @@ namespace SportsStore.Domain.Models
         [Url(ErrorMessage = "URL hình ảnh không hợp lệ.")]
         [Display(Name = "URL hình ảnh")]
         public string? ImageUrl { get; set; }
+
+
     }
 }

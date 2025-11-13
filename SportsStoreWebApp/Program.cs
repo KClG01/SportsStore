@@ -101,7 +101,19 @@ namespace SportsStoreWebApp
 
             //await simulateDataFetchAsync();
 
-            //Console.WriteLine("===Kết thúc C#");
+            Console.WriteLine("===Kết thúc C#");
+
+            app.MapControllerRoute(
+                name: "admin",
+                pattern: "admin",
+                defaults: new { controller = "Admin", action = "Index" }
+            );
+
+            //app.MapControllerRoute(
+            //    name: "admin",
+            //    pattern: "admin/{action=Index}/{id?}",
+            //    defaults: new { controller = "Admin" }
+            //);
 
             app.MapControllerRoute(
                 name: "category_page",
