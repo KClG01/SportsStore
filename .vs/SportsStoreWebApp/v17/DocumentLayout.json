@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|c:\\users\\admin\\source\\repos\\aspnetcore\\sportsstorewebapp\\sportsstorewebapp\\sportsstorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|solutionrelative:sportsstorewebapp\\sportsstorewebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|c:\\users\\admin\\source\\repos\\aspnetcore\\sportsstorewebapp\\sportsstorewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|solutionrelative:sportsstorewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStore.Tests\\SportsStore.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SportsStore.Tests\\SportsStore.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|c:\\users\\admin\\source\\repos\\aspnetcore\\sportsstorewebapp\\sportsstorewebapp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|solutionrelative:sportsstorewebapp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|c:\\users\\admin\\source\\repos\\aspnetcore\\sportsstorewebapp\\sportsstorewebapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|solutionrelative:sportsstorewebapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F1A328-26C7-4F58-8264-D39C62E7C779}|SportsStore.Domain\\SportsStore.Domain.csproj|c:\\users\\admin\\source\\repos\\aspnetcore\\sportsstorewebapp\\sportsstore.domain\\abstract\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F1A328-26C7-4F58-8264-D39C62E7C779}|SportsStore.Domain\\SportsStore.Domain.csproj|solutionrelative:sportsstore.domain\\abstract\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|c:\\users\\admin\\source\\repos\\aspnetcore\\sportsstorewebapp\\sportsstorewebapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5290DF5E-4E20-41DF-9CD3-0D1D58506C8F}|SportsStoreWebApp\\SportsStoreWebApp.csproj|solutionrelative:sportsstorewebapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D34A01-CE5A-40B2-8361-16738CC2D4FC}|SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\aspnetcore\\sportsstorewebapp\\sportsstore.infrastructure\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D34A01-CE5A-40B2-8361-16738CC2D4FC}|SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj|solutionrelative:sportsstore.infrastructure\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SportsStoreWebApp",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\SportsStoreWebApp.csproj",
-              "RelativeDocumentMoniker": "SportsStoreWebApp\\SportsStoreWebApp.csproj",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\SportsStoreWebApp.csproj",
-              "RelativeToolTip": "SportsStoreWebApp\\SportsStoreWebApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-13T15:10:05.444Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SportsStoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SportsStoreWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwD0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T01:57:09.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SportsStore.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStore.Tests\\SportsStore.Tests.csproj",
-              "RelativeDocumentMoniker": "SportsStore.Tests\\SportsStore.Tests.csproj",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStore.Tests\\SportsStore.Tests.csproj",
-              "RelativeToolTip": "SportsStore.Tests\\SportsStore.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-13T15:09:32.833Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "SportsStoreWebApp\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "SportsStoreWebApp\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T01:53:28.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStore.Domain\\Abstract\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "SportsStore.Domain\\Abstract\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStore.Domain\\Abstract\\IProductRepository.cs",
+              "RelativeToolTip": "SportsStore.Domain\\Abstract\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:06:31.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SportsStoreWebApp\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SportsStoreWebApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:10:53.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStore.Infrastructure\\Repositories\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "SportsStore.Infrastructure\\Repositories\\EFProductRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStore.Infrastructure\\Repositories\\EFProductRepository.cs",
+              "RelativeToolTip": "SportsStore.Infrastructure\\Repositories\\EFProductRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA5wDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:05:59.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "SportsStoreWebApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\ASPNETcore\\SportsStoreWebApp\\SportsStoreWebApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "SportsStoreWebApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:05:15.025Z",
               "EditorCaption": ""
             }
           ]
